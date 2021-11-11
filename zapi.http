@@ -1,0 +1,29 @@
+GET http://localhost:3000/items
+
+# GET http://localhost:3000/items/618ca69f053e027947c96cd8
+
+
+# POST http://localhost:3000/items
+# Content-Type: application/json
+
+# {   
+#     "name": "Item to test that nothing breaks",
+#     "quantity": 723,
+#     "description": "This is item test that nothing breaks"
+# }
+
+# {
+#     "name": "Item 1",
+#     "quantity": 60,
+#     "description": "This is item one"
+# }
+
+# PUT  http://localhost:3000/items/618ca616053e027947c96cd1
+# Content-Type: application/json
+
+# {
+#     "name": "Item 100"
+# }
+
+
+# DELETE http://localhost:3000/items/618ca63c053e027947c96cd3
